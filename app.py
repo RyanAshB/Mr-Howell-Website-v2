@@ -11,4 +11,4 @@ def ticket():
     return render_template('ticket.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
