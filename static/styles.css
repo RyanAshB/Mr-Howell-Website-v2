@@ -1,3 +1,20 @@
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white !important;
+}
+
+.navbar-brand {
+    text-align: center;
+    color: white !important;
+}
+
+
+.custom-btn {
+    color: white !important;
+    background-color: rgb(79, 79, 255) !important;
+    border-radius: 25px !important;
+}
+
+
 .mb-4 {
     color: black
 }
@@ -305,6 +322,7 @@
     transition: 2s;
     border-style: solid;
     border-color: black;
+    box-shadow: 0px 0px 12px 1px white;
 }
 
 .launch-time p {
@@ -339,4 +357,97 @@
 .timer {
     /* background: linear-gradient(to right, lightblue, rgb(133, 172, 255)); */
     background-color: white;
+}
+
+
+
+.agenda-section {
+    background-color: rgb(197, 241, 255);
+    background-image: url('/static/folder_1/images/agenda-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; /* prevent tiling */
+    background-attachment: fixed; /* makes the image stay in place while scrolling */
+}
+
+.agenda-margin {
+    padding: 3%;
+}
+
+
+.times {
+    display: flex;
+    background-image: linear-gradient(to bottom, white, rgba(255, 255, 255, 0));
+    border-top-left-radius: 380px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 100px;
+    margin-bottom: 3%;
+    width: 60%;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    background-image: linear-gradient(to bottom right, rgb(83, 163, 255), rgb(150, 239, 255));
+    border-radius: 70%;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 0px 12px 4px white;
+    width: 11vw;
+    height: 11vw;
+}
+
+.number h1 {
+    font-size: 1.3rem !important;
+    font-weight: bold;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 80%;
+    font-weight: bold !important;
+}
+
+.description p {
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+#agenda-heading {
+    color: white;
+    text-shadow: 2px 2px black;
+    padding-top: 5%;
+}
+
+.who-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.who-text p {
+    color: black;
+    
+}
+
+.person-left .who-text p {
+    margin-left: 25px;
+}
+
+.person-right .who-text p {
+    margin-right: 25px;
+}
+
+
+.image-link {
+    display: flex;
+    justify-content: center;
+}
+
+.image-link img {
+    width: 50vw;
 }
